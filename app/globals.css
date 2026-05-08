@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 224 17% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 17% 12%;
+    --primary: 224 17% 12%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 40 24% 94%;
+    --secondary-foreground: 224 17% 12%;
+    --muted: 36 20% 96%;
+    --muted-foreground: 220 9% 42%;
+    --accent: 151 22% 90%;
+    --accent-foreground: 164 27% 18%;
+    --border: 36 16% 88%;
+    --input: 36 16% 88%;
+    --ring: 224 17% 12%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "palt";
+  }
+
+  ::selection {
+    background: rgba(38, 86, 72, 0.16);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-y {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+}
