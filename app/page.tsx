@@ -9,7 +9,9 @@ import { PricingSection } from "@/components/sections/PricingSection";
 import { ProblemsSection } from "@/components/sections/ProblemsSection";
 import { ReasonsSection } from "@/components/sections/ReasonsSection";
 import { ResultsSection } from "@/components/sections/ResultsSection";
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { TrainerSection } from "@/components/sections/TrainerSection";
+import { TrialAssuranceSection } from "@/components/sections/TrialAssuranceSection";
 
 export default function Home() {
   return (
@@ -18,10 +20,12 @@ export default function Home() {
       <HeroSection />
       <ProblemsSection />
       <ReasonsSection />
-      <ResultsSection />
-      <TrainerSection />
       <PricingSection />
       <FlowSection />
+      <ResultsSection />
+      <TrainerSection />
+      <TestimonialsSection />
+      <TrialAssuranceSection />
       <FaqSection />
       <AccessSection />
       <FinalCtaSection />

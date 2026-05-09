@@ -7,6 +7,7 @@ const config: Config = {
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./lib/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
     container: {
@@ -50,7 +51,7 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       boxShadow: {
-        soft: "0 24px 80px rgba(20, 24, 31, 0.08)",
+        soft: "0 24px 80px rgba(101, 72, 76, 0.10)",
         line: "0 1px 0 rgba(16, 24, 40, 0.08)",
       },
     },

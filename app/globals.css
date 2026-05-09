@@ -4,22 +4,22 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 224 17% 12%;
+    --background: 28 54% 98%;
+    --foreground: 22 22% 16%;
     --card: 0 0% 100%;
-    --card-foreground: 224 17% 12%;
-    --primary: 224 17% 12%;
+    --card-foreground: 22 22% 16%;
+    --primary: 356 25% 53%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 40 24% 94%;
-    --secondary-foreground: 224 17% 12%;
-    --muted: 36 20% 96%;
-    --muted-foreground: 220 9% 42%;
-    --accent: 151 22% 90%;
-    --accent-foreground: 164 27% 18%;
-    --border: 36 16% 88%;
-    --input: 36 16% 88%;
-    --ring: 224 17% 12%;
-    --radius: 0.5rem;
+    --secondary: 24 52% 94%;
+    --secondary-foreground: 22 22% 16%;
+    --muted: 26 42% 95%;
+    --muted-foreground: 22 13% 43%;
+    --accent: 348 39% 90%;
+    --accent-foreground: 352 28% 39%;
+    --border: 24 28% 86%;
+    --input: 24 28% 86%;
+    --ring: 356 25% 53%;
+    --radius: 1.35rem;
   }
 
   * {
@@ -36,7 +36,7 @@
   }
 
   ::selection {
-    background: rgba(38, 86, 72, 0.16);
+    background: rgba(201, 152, 154, 0.26);
   }
 }
 
@@ -47,5 +47,24 @@
 
   .section-y {
     @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .beauty-band {
+    background:
+      radial-gradient(circle at 10% 0%, rgba(201, 152, 154, 0.2), transparent 32%),
+      radial-gradient(circle at 92% 18%, rgba(200, 170, 115, 0.16), transparent 26%),
+      linear-gradient(180deg, #fffdfb 0%, #fbf4f1 52%, #f7eee8 100%);
+  }
+
+  .soft-rose-band {
+    background:
+      radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.72), transparent 30%),
+      linear-gradient(135deg, #fbf7f2 0%, #f7e9e5 55%, #efe4dc 100%);
+  }
+
+  .mauve-surface {
+    background:
+      radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.22), transparent 34%),
+      linear-gradient(135deg, #7b5f65 0%, #9f6f72 54%, #bf8d8f 100%);
   }
 }

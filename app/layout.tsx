@@ -10,9 +10,9 @@ const notoSansJp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "PERSONAL GYM LUMIA | 完全個室パーソナルジム",
+  title: "Salon Lueur | 表参道のプライベート美容サロン",
   description:
-    "初心者でも安心して始められる、完全個室のパーソナルジム。体験トレーニング受付中。",
+    "眉・まつげ・フェイシャルを自然に整える、完全予約制のプライベート美容サロン。",
 };
 
 export default function RootLayout({
